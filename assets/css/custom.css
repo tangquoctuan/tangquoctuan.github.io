@@ -1,7 +1,30 @@
 .alt-profile {
-    border-radius:50%;
-    overflow:hidden;
-    width:100px;
-    height:100px;
-    border:1px solid #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+.skills_tag {
+    color: #494949 !important;
+    background: #ffffff;
+    padding: 2px;
+    border: 1px solid #494949 !important;
+    border-radius: 6px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.skills_tag:hover {
+    color: #ffffff !important;
+    background: #4B6A78;
+    border-color: #4B6A78 !important;
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    cursor: default;
+}
+
+.project-language .items{
+    font-style: italic;
+    text-decoration: underline;
 }
