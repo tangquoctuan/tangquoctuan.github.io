@@ -24,7 +24,49 @@
     cursor: default;
 }
 
-.project-language .items{
+.project-language .items {
     font-style: italic;
     text-decoration: underline;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 90%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.badge:empty {
+    display: none;
+}
+
+.btn .badge {
+    position: relative;
+    top: -1px;
+}
+
+.badge-pill {
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #4B6A78;
+}
+
+.project-language {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.main-wrapper .project-title {
+    font-weight: bold;
+!important;
 }
