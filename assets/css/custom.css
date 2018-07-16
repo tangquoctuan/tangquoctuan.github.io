@@ -25,8 +25,9 @@
 }
 
 .project-language .items {
-    font-style: italic;
-    text-decoration: underline;
+    font-weight: 700;
+    margin-bottom: 5px;
+    list-style-type: none;
 }
 
 .badge {
@@ -39,6 +40,8 @@
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: 0.25rem;
+    margin: 0 0.5rem 0.5rem 0;
+
 }
 
 .badge:empty {
