@@ -73,3 +73,7 @@
     font-weight: bold;
 !important;
 }
+
+.hover_pointer{
+    cursor: pointer;
+}
