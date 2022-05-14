@@ -1,0 +1,28 @@
+.staticrypt-form {
+    border-radius: 12px;
+}
+
+.staticrypt-form #staticrypt-password {
+    border-radius: 0.375rem;
+}
+
+.staticrypt-form .staticrypt-decrypt-button {
+    text-transform: uppercase;
+    outline: 0;
+    background: #202023;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 0.375rem;
+}
+
+.staticrypt-form .staticrypt-decrypt-button:hover, .staticrypt-form .staticrypt-decrypt-button:active, .staticrypt-form .staticrypt-decrypt-button:focus {
+    background: #393940;
+}
+
+.staticrypt-footer {
+    display: none;
+}
